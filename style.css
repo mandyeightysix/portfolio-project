@@ -1,14 +1,27 @@
+:root {
+  --branding-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  --paragraph-header: "Laila", sans-serif;
+  --paragraph-font: "DM Serif Text", serif;
+}
+
 body {
-  font-family: "Laila", sans-serif;
-  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  font-family: var(--paragraph-header);
+  background: var(--branding-color);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
 
 p {
-  font-size: 24px;
-  font-weight: 900;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: var(--paragraph-font);
+}
+
+footer {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(128, 109, 3);
 }
 
 .mirror p {
