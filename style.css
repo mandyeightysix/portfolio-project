@@ -1,0 +1,43 @@
+body {
+  font-family: "Laila", sans-serif;
+}
+
+p {
+  border: 10px solid white;
+  border-radius: 20px;
+  color: #1f3805;
+  background-image: url("images/jasmine.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.navbar-style {
+  background-color: rgb(208, 193, 112);
+}
+
+.element.style {
+  color: white;
+  border-color: white;
+}
+
+.intro {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 50%;
+  color: rgb(255, 255, 255);
+}
+
+.intro-one {
+  color: rgb(210, 180, 9);
+  opacity: 85%;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.intro-two {
+  color: rgb(128, 109, 3);
+}
