@@ -1,9 +1,5 @@
 :root {
-  --branding-color: radial-gradient(
-    circle at 10% 20%,
-    rgb(255, 246, 236) 39.5%,
-    rgba(100, 46, 122, 0.23) 100.2%
-  );
+  --branding-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   --paragraph-header: "Laila", sans-serif;
   --paragraph-font: "DM Serif Text", serif;
 }
@@ -20,7 +16,6 @@ p {
   font-size: 18px;
   font-weight: lighter;
   font-family: var(--paragraph-font);
-  color: darkslateblue;
 }
 
 footer {
@@ -30,10 +25,10 @@ footer {
 }
 
 .mirror p {
-  border: 10px solid rgba(57, 11, 61, 0.575);
+  border: 10px solid rgba(210, 180, 9, 0.575);
   border-radius: 80px 40px;
   color: #1f3805;
-  background-image: url("images/saturn.jpg");
+  background-image: url("images/jasmine.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -49,7 +44,7 @@ footer {
 }
 
 .intro-one {
-  color: rgba(124, 58, 130, 0.575);
+  color: rgb(210, 180, 9);
   opacity: 85%;
   padding-top: 15px;
   padding-bottom: 20px;
@@ -57,7 +52,7 @@ footer {
 }
 
 .intro-two {
-  color: rgba(22, 3, 24, 0.575);
+  color: rgb(128, 109, 3);
 }
 
 @media (max-width: 900px) {
