@@ -7,8 +7,6 @@
 
 body {
   margin-top: 120px;
-  margin-right: 10px;
-  margin-left: 10px;
   background: rgb(250, 190, 190);
 }
 
@@ -126,6 +124,9 @@ footer {
   color: white;
 }
 
+.container-fluid {
+}
+
 .project-description {
   padding: 120px 60px;
   color: white;
@@ -198,7 +199,7 @@ footer {
     background-size: 480px;
     background-repeat: no-repeat;
     background-position: top;
-    border: 8px solid rgba(42, 39, 39, 0.525);
+    border: 6px solid rgba(42, 39, 39, 0.525);
   }
 
   .project-description {
