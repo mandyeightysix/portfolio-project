@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("usePolarisQueryPreloaderID",["useRouteReferrer"],(function(a,b,c,d,e,f,g){"use strict";function a(a){var b=c("useRouteReferrer")();b=(b==null?void 0:b.navigationType)==="initial"||(b==null?void 0:b.navigationType)==="reload";return a.preloadEnabled&&b?a.preloaderID:null}g["default"]=a}),98);
+__d("usePolarisPreloadedGetQuery",["usePolarisQueryPreloaderID","usePolarisQueryStore"],(function(a,b,c,d,e,f,g){"use strict";function a(a,b){var d=c("usePolarisQueryStore")(),e=c("usePolarisQueryPreloaderID")(a);return d.loadGetQuery([a.request.url,a.request.params],b,e)}g["default"]=a}),98);

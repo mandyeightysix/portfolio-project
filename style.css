@@ -32,10 +32,16 @@ h2 {
 }
 
 h3 {
+  color: white;
   font-size: 24px;
   opacity: 0.7;
   font-family: "DM Serif Text", serif;
   text-align: center;
+}
+
+h4 {
+  font-size: 40px;
+  opacity: 0.7;
 }
 
 p {
@@ -45,6 +51,11 @@ p {
 
 img {
   max-width: 100%;
+  border-radius: 10px;
+}
+
+button :hover {
+  color: white;
 }
 
 footer {
@@ -81,13 +92,12 @@ footer {
 }
 
 .hero {
-  border: 8px solid rgba(42, 39, 39, 0.525);
-  border-radius: 6px;
   color: #1f3805;
   background-image: url("images/pink-black-cat.jpg");
+  background-color: rgb(250, 190, 190);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 50% 98%;
+  background-size: 40% 85%;
   padding: 170px 20px;
 }
 
@@ -129,32 +139,23 @@ footer {
   color: white;
 }
 
+.contact-links {
+  color: white;
+}
+
+.contact-links :hover {
+  color: black;
+}
+
 .copyright {
   font-size: 16px;
   font-weight: lighter;
   font-family: var(--primary-font);
 }
 
-.source-link {
-  color: #110e0d;
-  text-decoration: none;
-}
-
-.source-link :hover {
-  transition-timing-function: ease-in;
-  transition-duration: 2s;
-  transition-delay: 1s;
-}
-
-.host-link {
-  color: #17120f;
-  text-decoration: none;
-}
-
-.host-link :hover {
-  transition-timing-function: ease-in;
-  transition-duration: 2s;
-  transition-delay: 1s;
+.contact-btn {
+  text-align: center;
+  color: white;
 }
 
 @keyframes morph {
@@ -174,14 +175,21 @@ footer {
   h1 {
     font-size: 50px;
   }
+
   h2 {
     font-size: 30px;
     text-align: center;
   }
+
   h3 {
     font-size: 18px;
     text-align: center;
   }
+
+  h4 {
+    font-size: 18px;
+  }
+
   p {
     font-size: 18px;
     text-align: center;
@@ -193,10 +201,11 @@ footer {
 
   .hero {
     padding: 80px 20px;
+    width: 100%;
+    background: rgb(250, 190, 190);
     background-size: 480px;
     background-repeat: no-repeat;
     background-position: top;
-    border: 6px solid rgba(42, 39, 39, 0.525);
   }
 
   .project-description {
