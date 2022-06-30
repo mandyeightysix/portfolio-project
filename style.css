@@ -22,7 +22,7 @@ h6 {
 
 h1 {
   font-size: 75px;
-  font-family: "Laila", sans-serif;
+  font-family: var(--primary-font);
 }
 
 h2 {
@@ -32,7 +32,6 @@ h2 {
 }
 
 h3 {
-  color: white;
   font-size: 24px;
   opacity: 0.7;
   font-family: "DM Serif Text", serif;
@@ -45,8 +44,10 @@ h4 {
 }
 
 p {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 20px;
+  color: #32230cde;
+  opacity: 75%;
+  font-family: var(--primary-font);
 }
 
 img {
@@ -54,7 +55,8 @@ img {
   border-radius: 10px;
 }
 
-button :hover {
+a {
+  text-decoration: none;
   color: white;
 }
 
@@ -91,14 +93,21 @@ footer {
   color: white !important;
 }
 
+.intro-p p {
+  border-style: outset;
+  border-color: #03051d;
+  background-color: rgba(1, 0, 1, 0.203);
+  color: white;
+}
+
 .hero {
   color: #1f3805;
   background-image: url("images/pink-black-cat.jpg");
   background-color: rgb(250, 190, 190);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 40% 85%;
-  padding: 170px 20px;
+  background-size: 50% 95%;
+  padding: 170px 30px;
 }
 
 .hero h1 {
@@ -109,6 +118,23 @@ footer {
 .hero h3 {
   line-height: 3;
   color: rgba(40, 35, 35, 0.863);
+}
+
+.project img {
+  max-width: 100%;
+  transition: 0.5s ease;
+}
+
+.project img:hover {
+  box-shadow: 1px 1px #3f3b08, 2px 2px #3f3b08, 3px 3px #3f3b08, 4px 4px #3f3b08,
+    5px 5px #3f3b08, 6px 6px #3a2d07;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s ease;
+}
+
+.courtesy {
+  font-size: 12px;
 }
 
 .black-cat {
@@ -141,6 +167,7 @@ footer {
 
 .contact-links {
   color: white;
+  padding-top: 60px;
 }
 
 .contact-links :hover {
@@ -156,6 +183,12 @@ footer {
 .contact-btn {
   text-align: center;
   color: white;
+}
+
+.contact-btn :hover {
+  color: white;
+  text-decoration: none;
+  transition: rgb(222, 213, 222) 1s ease-in-out;
 }
 
 @keyframes morph {
@@ -195,6 +228,10 @@ footer {
     text-align: center;
   }
 
+  small {
+    font-size: 8px;
+  }
+
   footer {
     font-size: 25px;
   }
@@ -211,6 +248,11 @@ footer {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .courtesy {
+    font-size: 8px;
+    line-height: 1.3em;
   }
 
   .copyright {
