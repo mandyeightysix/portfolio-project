@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgba(144, 214, 221, 0.337);
-  --branding-color: #061818c7;
+  --primary-color: rgba(30, 175, 188, 0.515);
+  --branding-color: #718181a4;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Indie Flower", cursive;
   --default-font-family: "Poppins", sans-serif;
@@ -29,6 +29,10 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 62px;
+}
+
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -43,6 +47,8 @@ h4 {
 
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 img {
@@ -126,6 +132,19 @@ footer {
   padding: 15px 30px;
 }
 
+.btn-branding-outline {
+  background: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
 .project img {
   max-width: 100%;
   transition: 0.5s ease;
@@ -196,11 +215,12 @@ footer {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 50px;
+    font-size: 44px;
+    line-height: 1.5;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 44px;
     text-align: center;
   }
 
@@ -228,11 +248,6 @@ footer {
 
   .hero {
     padding: 80px 20px;
-    width: 100%;
-    background: rgb(250, 190, 190);
-    background-size: 480px;
-    background-repeat: no-repeat;
-    background-position: top;
   }
 
   .project-description {
@@ -242,11 +257,5 @@ footer {
 
   .copyright {
     font-size: small;
-  }
-}
-
-@media (min-width: 510px) {
-  .black-cat {
-    background: rgb(250, 190, 190);
   }
 }
