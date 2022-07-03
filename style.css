@@ -230,6 +230,18 @@ small {
   font-size: 14px;
 }
 
+.name-footer {
+  font-size: 16px;
+  font-family: "Laila", sans-serif;
+  color: var(--branding-color);
+}
+
+.name-footer:hover {
+  font-size: 16px;
+  font-family: "Laila", sans-serif;
+  color: var(--primary-color);
+}
+
 .copyright {
   font-size: 16px;
   font-weight: lighter;
