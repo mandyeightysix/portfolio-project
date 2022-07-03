@@ -106,6 +106,10 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+small {
+  font-size: 12px;
+}
+
 .bg-light {
   background: black !important;
   font-family: "Indie Flower", cursive;
@@ -142,7 +146,7 @@ footer .social-links a:hover {
 .hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -161,7 +165,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 40px;
 }
 
 .content h1 {
@@ -217,6 +221,11 @@ footer .social-links a:hover {
   filter: blur(5px);
 }
 
+.name {
+  font-family: var(--heading-font-family);
+  font-size: 14px;
+}
+
 .copyright {
   font-size: 16px;
   font-weight: lighter;
@@ -254,6 +263,10 @@ footer .social-links a:hover {
     text-align: center;
   }
 
+  small {
+    font-size: 10px;
+  }
+
   footer {
     font-size: 25px;
   }
@@ -281,7 +294,7 @@ footer .social-links a:hover {
     text-align: center;
   }
 
-  .copyright {
-    font-size: small;
+  .name {
+    font-size: 12px;
   }
 }
