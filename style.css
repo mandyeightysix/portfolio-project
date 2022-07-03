@@ -313,4 +313,16 @@ small {
   .name {
     font-size: 12px;
   }
+
+  .name-footer {
+    font-size: 12px;
+  }
+
+  .name-footer:hover {
+    font-size: 12px;
+  }
+
+  .open-sourced p {
+    font-size: 12px;
+  }
 }
