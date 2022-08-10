@@ -155,7 +155,7 @@ small {
 
 .hero p {
   font-family: "Poppins", sans-serif;
-  color: #272142;
+  color: #ffd753e1;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -163,6 +163,7 @@ small {
 
 .hero h2 {
   font-family: var(--default-font-family);
+  color: #020109b2;
   line-height: 2;
   font-weight: normal;
   font-size: 24px;
@@ -295,6 +296,14 @@ small {
     padding: 80px 20px;
   }
 
+  .hero h1 {
+    font-size: 75px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
   .content {
     text-align: center;
     padding: 10px;
@@ -323,6 +332,6 @@ small {
   }
 
   .open-sourced p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
