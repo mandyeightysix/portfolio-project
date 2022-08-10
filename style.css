@@ -226,6 +226,13 @@ small {
   filter: blur(5px);
 }
 
+.closing {
+  padding: 80px 40px;
+  background-color: var(--primary-color);
+  border: 4px solid;
+  border-radius: 12px;
+}
+
 .name {
   font-family: var(--heading-font-family);
   font-size: 14px;
