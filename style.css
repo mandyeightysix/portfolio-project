@@ -93,7 +93,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
+  color: white;
   background: var(--primary-color);
   padding: 10px 15px;
   font-size: 20px;
@@ -155,10 +155,11 @@ small {
 
 .hero p {
   font-family: "Poppins", sans-serif;
-  color: #ffd753e1;
+  color: #f7f5eee1;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  padding: 25px;
 }
 
 .hero h2 {
