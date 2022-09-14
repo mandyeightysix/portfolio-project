@@ -24,7 +24,7 @@ h6 {
 
 h1 {
   color: black;
-  font-size: 96px;
+  font-size: 150px;
   font-family: "Indie Flower", cursive;
   font-weight: bold;
 }
@@ -154,9 +154,9 @@ small {
 }
 
 .hero p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family);
   color: #f7f5eee1;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: bold;
   margin: 0;
   padding: 25px;
